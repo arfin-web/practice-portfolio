@@ -1,0 +1,120 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+.navigation-part{
+    display: flex;
+    background-color: dodgerblue;
+}    
+.logo{
+    width: 30%;
+}
+.logo h2{
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+}
+.menu{
+    width: 70%;
+    margin-left: 750px;
+    margin-top: 32px;
+}
+.menu a{
+    text-decoration: none;
+    padding-left: 8px;
+    color: white;
+    font-size: 20px;
+}
+.flexible-container{
+    display: flex;
+}
+.head-part{
+    height: 100vh;
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+}
+.head-text-part{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.head-text-part h1{
+    color: dodgerblue;
+    font-size: 40px;
+}
+.head-text-part h5{
+    font-size: 25px;
+}
+.head-image-part{
+    width: 40%;
+    margin-left: 150px;
+}
+.about-part{
+    height: 100vh;
+}
+.about-image-part{
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.about-text-part{
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+.service-part{
+    height: 90vh;
+}
+.service{
+    width: 20%;
+    margin-left: 120px;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.service h2{
+    color: dodgerblue;
+}
+.pro1{
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 40px dodgerblue;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.pro2{
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 40px dodgerblue;
+    margin-left: 30px;
+}
+.heading{
+    text-align: center;
+    color: dodgerblue;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+.experience-part{
+    height: 70vh;
+}
+.experience-item{
+    width: 30%;
+    margin-left: 35px;
+    text-align: justify;
+    box-shadow: 10px 10px 20px dodgerblue;
+    border-radius: 15px;
+    padding: 4px;
+    border-top: 8px solid;
+    border-color: dodgerblue;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
